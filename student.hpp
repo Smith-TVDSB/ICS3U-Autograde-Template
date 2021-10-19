@@ -8,7 +8,7 @@ using namespace std;
 // implementations
 
 //Replace string function
-string replace(string sentence, string word, string replacingWord)
+int function()
 {
 	return "0"; // TODO: fix
 }

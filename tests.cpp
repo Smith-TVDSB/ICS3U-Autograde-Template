@@ -11,16 +11,23 @@
 // tests for exercise 1
 // ---------------------
 
-TEST_CASE("Ex1", "[example]")
+TEST_CASE("Ex1", "[example]") //Exercise 1, tagged with example
 {
-    REQUIRE(replace("Hello World", "Hello", "Bye") == "Bye World");
-    REQUIRE(replace("This is a sentence", "sentence", "phrase") == "This is a phrase");
-    REQUIRE(replace("I like to sleep outside", "like", "hate") == "I hate to sleep outside");
+    
+    //TODO: Set up tests
+    REQUIRE(replace(function()==Approx(5)); //within 1 of 5
+    REQUIRE(replace(function()==Approx(3).margin(5)); //within 5 units of 3
+    
+    //Checks keeps running if fails
+    CHECK(function()==0)
+
+    //Checks if a function throws an exception
+    REQUIRE_THROWS_WITH( openThePodBayDoors(), Contains( "afraid" ) && Contains( "can't do that" ) );
         
 }
 
-// =====================
-// tests for exercise 2
-// ---------------------
+// Notes: 
+// can use variables and libraries
+// can use logic operators and loops
 
 
