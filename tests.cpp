@@ -11,7 +11,7 @@
 // tests for exercise 1
 // ---------------------
 
-TEST_CASE("Ex1", "[example]") //Exercise 1, tagged with example
+TEST_CASE("ExerciseOne", "[example]") //Named ExerciseOne, tagged with example
 {
     
     //TODO: Set up tests
@@ -26,8 +26,9 @@ TEST_CASE("Ex1", "[example]") //Exercise 1, tagged with example
         
 }
 
-// Notes: 
+// Notes for teacher: 
 // can use variables and libraries
 // can use logic operators and loops
+// you can run a specific test by using ./tests <TEST CASE NAME HERE>
 
 
