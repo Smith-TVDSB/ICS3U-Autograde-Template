@@ -7,11 +7,9 @@
 
 #include "student.hpp" // student implementations
 
-// =====================
-// tests for exercise 1
-// ---------------------
+//TESTS
 
-TEST_CASE("ExerciseOne", "[example]") //Named ExerciseOne, tagged with example
+TEST_CASE("ExerciseOne") //Named ExerciseOne, tagged with example
 {
     
     //TODO: Set up tests
